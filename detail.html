@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+<!-- The details page displays details of singular cinnamon roll types-->
+  <head>
+    <style>
+        a:hover {
+          background-color: yellow;
+        }
+    </style>
+    <title>Details</title>
+    <link rel="stylesheet" href="/pui-homework2-solution/style.css">
+    <a href="/pui-homework2-solution/index.html"><img class="logo-main" src="/pui-homework2-solution/assets/logo-01.svg" /></a>
+    <hr style="height: 5px;color:black;background-color:black;">
+    
+  </head>
+
+
+  <body>
+    <div class="nav-links">
+        <nav>
+            <a href="/pui-homework2-solution/index.html">PRODUCTS</a><br><br>
+            <a href="/pui-homework2-solution/cart.html">CART</a> 
+            
+        </nav>
+    </div>
+    
+    <div class="details-content">
+        <h2>Original Cinnamon Roll</h2>
+        <img class="image" src="/pui-homework2-solution/assets/original-cinnamon-roll.jpg" />
+        <div class="customize-desc">
+            Customize our delicious, handmade Cinnamon Roll to your liking!
+        </div>
+        <div class="customize-form">
+            <form action="/action_page.php">
+                <label for="options">Glazing:</label><br>
+                <select name="options" id="glazing">
+                  <option value="org">Keep Original</option>
+                  <option value="sugar">Sugar Milk</option>
+                  <option value="vanilla">Vanilla Milk</option>
+                  <option value="choco">Double Chocolate</option>
+                </select>
+                <br><br>
+
+                <label for="options">Pack Size:</label><br>
+                <select name="options" id="size">
+                  <option value="1">1</option>
+                  <option value="3">3</option>
+                  <option value="6">6</option>
+                  <option value="12">12</option>
+                </select>
+                <br><br>
+               
+              </form>
+        </div>
+        $2.49
+        <a href="/pui-homework2-solution/cart.html">
+            <button class="cart-button">Add to Cart</button>
+        </a>
+    
+    </div>
+  </body>

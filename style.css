@@ -1,0 +1,101 @@
+
+body {
+    
+    margin: 100px;
+    padding: 0px;
+  
+    
+    font-family: 'sans-serif';
+    color: black;
+  }
+
+a{
+    color: black;
+ }
+
+ a:hover {
+    background-color: yellow;
+  }
+
+.logo-main{
+    width: 300px;
+    height: 200px;
+    
+}
+
+
+.logo{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+
+}
+
+.nav-links{
+    text-align: center;
+    line-break: loose;
+    color: black;
+    padding: 20px;
+}
+
+.gallery-content{
+    text-align: center;
+    color: black;
+
+    
+}
+/* center alignment for was not working with the cart page due to conflicts*/
+
+.content-cart{
+    margin: 300px;
+    text-align: center;
+  
+}
+.cart-gallery{
+    text-align: center;
+    width:350px;
+    height:350px;
+    
+}
+.image-cart{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    
+}
+
+.details-content{
+    text-align: center;
+
+}
+
+.image{
+    width: 300px;
+    height:200px;
+    border: 3px solid black;
+    
+}
+
+.customize-desc{
+    width: 300px;
+    padding:10px;
+    margin:auto;
+
+}
+.button {
+    border: black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+.button1 {background-color: white;}
+
+
+
