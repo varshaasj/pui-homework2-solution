@@ -1,11 +1,9 @@
 
 body {
     
-    margin: 100px;
-    padding: 0px;
-  
     
-    font-family: 'sans-serif';
+    padding: 0px;
+    font-family: sans-serif;
     color: black;
   }
 
@@ -13,36 +11,100 @@ a{
     color: black;
  }
 
- a:hover {
+a:hover {
     background-color: yellow;
   }
 
-.logo-main{
-    width: 300px;
-    height: 200px;
-    
+hr {
+    height: 5px;
+    color:black;
+    background-color:black;
+    width: 100%;
+}
+
+.row-header {
+    display: flex;
+    justify-content: center;
+    align-items: start; 
+    width: 100%;
+   
+ 
+  }
+.logo-div{
+    flex: 0 0 auto;
+}
+.hr-div{
+    flex: 1 0 auto;
+    padding: 5px;
+}
+
+.logo-main{   
+    width: 100% ;
+    height: 100% ;
 }
 
 
 .logo{
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 300px;
     border: 3px solid black;
 
 }
 
+
 .nav-links{
-    text-align: center;
-    line-break: loose;
+    text-align: right;
+    line-break: loose;       
     color: black;
+    padding: 20px;
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+
+}
+
+.tab-div{
+    flex: 0 0 auto;
     padding: 20px;
 }
 
-.gallery-content{
-    text-align: center;
-    color: black;
+h1{
+    text-align: left;
+    justify-content: center;
+    padding: 20px;
+}
 
+
+.gallery-content{
+    text-align: left;
+    color: black;
+    padding: 20px;
     
+    
+}
+.gallery-row-1 {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    
+    
+    
+}
+.gallery-row-2 {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    
+    
+    
+}
+
+.gallery{
+    height: auto;
+    width: auto;
+    padding:10px;
 }
 /* center alignment for was not working with the cart page due to conflicts*/
 
