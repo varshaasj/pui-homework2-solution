@@ -17,10 +17,8 @@ a:hover {
   }
 a:active{
     font-weight: bold;
+
 }
-.active {
-    background-color: #04AA6D;
-  }
 
 hr {
     height: 5px;
