@@ -139,6 +139,9 @@ h1{
     padding: 10px;
     
 }
+.cart-col1{
+    font-size: xx-small;
+}
 .cart-col2{
     flex-grow: 2;
     padding: 10px;
